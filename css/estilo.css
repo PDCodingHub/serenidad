@@ -1,0 +1,122 @@
+/* .logo{
+    width: 150px;
+}
+
+.navbarSerenidad{
+    background-color:#f4bb6e;
+}
+
+footer{
+    background-image: url("/img/footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100px;
+    text-align: center; 
+    font-family: 'Tangerine', cursive;
+    color: #eccea2;
+    font-size: 2.5rem;
+    line-height: 100px;
+} */
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/*INDEX.PHP*/
+
+header{
+    font-family: 'Tangerine', cursive;
+    color: #eccea2;
+    background-image: url("../img/footer.jpg");
+}
+
+#bienvenida{
+    height: 80vh;
+    background-image: linear-gradient(
+            0deg,
+            rgba(192, 188, 188, 0.6),
+            rgba(197, 190, 190, 0.6)
+    )
+    ,url("/img/bienvenida.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#bondades{
+    height: 80vh;
+}
+
+#servicios{
+    height: 80vh;
+    background-image: linear-gradient(
+            0deg,
+            rgba(192, 188, 188, 0.6),
+            rgba(197, 190, 190, 0.6)
+    )
+    ,url("/img/servicios.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#contacto{
+    height: 40vh;
+}
+
+/*INDEX.PHP*/
+#login{
+    height: 70vh;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.fondoImagen {
+    background-image: url("/img/mujer-haciendo-preguntas-entrevista.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-image: url("../img/footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    color: #eccea2;
+    font-size: 2.5rem;
+    line-height: 100px;
+
+    position: absolute;
+    width: 100%;
+    /*bottom: 0;*/
+}
+
+.logo{
+    width: 150px;
+}
+
+.navbarSerenidad{
+    background-color:#f4bb6e;
+    margin-bottom: -1rem;
+}
+
+.negrita{
+    font-weight: bold;
+}
